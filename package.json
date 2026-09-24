@@ -1,0 +1,17 @@
+{
+  "name": "restauracja-swierczow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strona Restauracji Świerczów",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}

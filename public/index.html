@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restauracja Świerczów | Brzeska 13</title>
+  <meta name="description" content="Domowe obiady i pizza w Świerczowie. ul. Brzeska 13, tel. 77 419 61 18.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="#start" class="logo-link">
+        <img src="images/logo.png" alt="Restauracja Świerczów Pizzeria, tel. 77 419 61 18" class="logo logo-sm">
+      </a>
+      <nav class="desktop-nav">
+        <a href="#o-nas">O nas</a>
+        <a href="#menu">Menu</a>
+        <a href="#imprezy">Imprezy</a>
+        <a href="#godziny">Godziny</a>
+        <a href="#kontakt">Kontakt</a>
+        <a class="btn" href="#rezerwacja">Zarezerwuj stolik</a>
+      </nav>
+      <button type="button" class="menu-button" aria-label="Otwórz menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+  <div class="drawer" hidden>
+    <div class="drawer-panel">
+      <button type="button" class="drawer-close" aria-label="Zamknij">×</button>
+      <p class="drawer-title">Restauracja Świerczów</p>
+      <a href="#o-nas">O nas</a>
+      <a href="#menu">Menu</a>
+      <a href="#imprezy">Imprezy</a>
+      <a href="#godziny">Godziny</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="btn" href="#rezerwacja">Zarezerwuj stolik</a>
+    </div>
+  </div>
+
+  <main>
+    <section id="start" class="hero">
+      <div class="wrap">
+        <p class="eyebrow light">Świerczów · powiat namysłowski</p>
+        <h1>Restauracja Świerczów</h1>
+        <p class="lead">Pizzeria i kuchnia polska od 2010 roku. Żur śląski, schabowy kowala, pizza świerczowska i panuozzo — na miejscu, na wynos albo na uroczystości.</p>
+        <div class="actions">
+          <a class="btn gold" href="#menu">Zobacz menu</a>
+          <a class="btn ghost" href="#rezerwacja">Zarezerwuj stolik</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="facts">
+      <div class="wrap facts-grid">
+        <div><p class="label">Telefon</p><a href="tel:+48774196118">77 419 61 18</a></div>
+        <div><p class="label">Adres</p><p>ul. Brzeska 13, 46-112 Świerczów</p></div>
+        <div><p class="label">Dziś</p><p>Kuchnia od 9:00, w weekend od 10:00</p></div>
+      </div>
+    </section>
+
+    <section id="o-nas" class="section">
+      <div class="wrap narrow">
+        <p class="eyebrow">O restauracji</p>
+        <h2>Jak u babci, z pizzą na tarasie</h2>
+        <p>Stoimy przy Brzeskiej 13, w centrum Świerczowa. Podajemy obiady przygotowane z dbałością o detal. W karcie: zupy, przekąski, dania szefa do 21:00, pizza 26–60 cm, pizza włoska na długodojrzewającym cieście, sałatki, panuozzo i dania dla dzieci.</p>
+        <p>Latem otwieramy przestronny taras. Dla dzieci jest plac zabaw, żeby rodzice mogli spokojnie zjeść. Goście chwalą luźną, rodzinną atmosferę — 752 opinii w Google, średnia 4,3/5.</p>
+        <ul class="ticks">
+          <li>Kuchnia polska i pizzeria od 2010</li>
+          <li>Taras na świeżym powietrzu</li>
+          <li>Plac zabaw i menu dla dzieci</li>
+          <li>Wi-Fi, parking, Apple Pay</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="wrap">
+        <p class="eyebrow">Karta</p>
+        <h2>Menu</h2>
+        <p class="intro">Pełna karta z lokalu. Zupę dnia i zestaw dnia sprawdzaj na Facebooku i Instagramie — zmieniają się co tydzień.</p>
+        <div class="tabs" role="tablist"><button type="button" class="tab active" data-tab="zupy">Zupy</button><button type="button" class="tab" data-tab="przekaski">Przekąski</button><button type="button" class="tab" data-tab="szef">Szef kuchni</button><button type="button" class="tab" data-tab="pizza">Pizza</button><button type="button" class="tab" data-tab="pizza-wloska">Pizza włoska</button><button type="button" class="tab" data-tab="salatki">Sałatki</button><button type="button" class="tab" data-tab="panuozzo">Panuozzo</button><button type="button" class="tab" data-tab="dzieci">Dla dzieci</button></div>
+        <div class="panel" data-panel="zupy" >
+      <p class="note">Tygodniowe menu zup i zestawów dnia jest w lokalu oraz na Facebooku i Instagramie.</p>
+      <ul class="dishes"><li>
+    <div>
+      <h3>Rosół z makaronem </h3>
+      <p class="desc">300 ml</p>
+    </div>
+    <p class="price">12 zł</p>
+  </li><li>
+    <div>
+      <h3>Pomidorowa z makaronem <span class="badge">wege</span></h3>
+      <p class="desc">300 ml</p>
+    </div>
+    <p class="price">12 zł</p>
+  </li><li>
+    <div>
+      <h3>Flaki wołowe </h3>
+      <p class="desc">400 g, podawane z pieczywem</p>
+    </div>
+    <p class="price">20 zł</p>
+  </li><li>
+    <div>
+      <h3>Żur śląski </h3>
+      <p class="desc">400 g, podawany z gniecionymi ziemniakami, jajkiem, kiełbasą i boczkiem</p>
+    </div>
+    <p class="price">18 zł</p>
+  </li><li>
+    <div>
+      <h3>Krem serowo-czosnkowy z grzankami <span class="badge">wege</span></h3>
+      <p class="desc">300 g</p>
+    </div>
+    <p class="price">18 zł</p>
+  </li><li>
+    <div>
+      <h3>Krem z borowików <span class="badge">wege</span></h3>
+      <p class="desc">300 g</p>
+    </div>
+    <p class="price">21 zł</p>
+  </li><li>
+    <div>
+      <h3>Zupa dnia </h3>
+      <p class="desc">300 ml</p>
+    </div>
+    <p class="price">12 zł</p>
+  </li></ul>
+    </div>
+<div class="panel" data-panel="przekaski" hidden>
+      
+      <ul class="dishes"><li>
+    <div>
+      <h3>Kulki serowe z chili <span class="badge">wege</span></h3>
+      <p class="desc">Panierowane, z sosem, 12 szt.</p>
+    </div>
+    <p class="price">25 zł</p>
+  </li><li>
+    <div>
+      <h3>Krążki cebulowe <span class="badge">wege</span></h3>
+      <p class="desc">Panierowane, z sosem, 12 szt.</p>
+    </div>
+    <p class="price">17 zł</p>
+  </li><li>
+    <div>
+      <h3>Kubełek </h3>
+      <p class="desc">370 g — kawałki piersi kurczaka, frytki, sos</p>
+    </div>
+    <p class="price">25 zł</p>
+  </li><li>
+    <div>
+      <h3>Frytki + sos <span class="badge">wege</span></h3>
+      <p class="desc">200 g</p>
+    </div>
+    <p class="price">12 zł</p>
+  </li><li>
+    <div>
+      <h3>Frytki z batatów + sos <span class="badge">wege</span></h3>
+      <p class="desc">200 g</p>
+    </div>
+    <p class="price">16 zł</p>
+  </li><li>
+    <div>
+      <h3>Frytki podwójne + sos <span class="badge">wege</span></h3>
+      <p class="desc">400 g</p>
+    </div>
+    <p class="price">20 zł</p>
+  </li><li>
+    <div>
+      <h3>Talerz przekąsek </h3>
+      <p class="desc">Polędwiczki drobiowe 150 g, 6× krążki cebulowe, 6× kulki serowe z chili, frytki 150 g, sos</p>
+    </div>
+    <p class="price">36 zł</p>
+  </li><li>
+    <div>
+      <h3>Party Mix </h3>
+      <p class="desc">Pizza duża z 1 składnikiem do wyboru, polędwiczki drobiowe 150 g, 6× krążki cebulowe, 6× kulki serowe z chili, frytki 150 g, sos</p>
+    </div>
+    <p class="price">56 zł</p>
+  </li></ul>
+    </div>
+<div class="panel" data-panel="szef" hidden>
+      <p class="note">Dania z rekomendacji szefa kuchni podawane do godz. 21:00.</p>
+      <ul class="dishes"><li>
+    <div>
+      <h3>Tatar wołowy </h3>
+      <p class="desc">200 g — marynowane grzyby, zielony majonez, ogórek, cebulka, żółtko, pieczywo</p>
+    </div>
+    <p class="price">38 zł</p>
+  </li><li>
+    <div>
+      <h3>Tradycyjna rolada wołowa </h3>
+      <p class="desc">180/450 g — rolada wołowa 180 g, faszerowana boczkiem, cebulką i ogórkiem kiszonym, z kluskami śląskimi, sosem pieczeniowym i zasmażaną czerwoną kapustą</p>
+    </div>
+    <p class="price">52 zł</p>
+  </li><li>
+    <div>
+      <h3>Rolada drobiowa </h3>
+      <p class="desc">180/450 g — rolada 180 g, faszerowana pieczarkami i cebulą, otulona boczkiem, z kluskami śląskimi, sosem śmietanowym i buraczkami</p>
+    </div>
+    <p class="price">41 zł</p>
+  </li><li>
+    <div>
+      <h3>Żeberka / XXL </h3>
+      <p class="desc">500/800 g albo 750/1050 g — barbecue, miodowo-piwne lub pikantne; wieprzowe marynowane w whisky, z pieczonymi ziemniaczkami, surówką z białej kapusty, sosem BBQ i czosnkowym</p>
+    </div>
+    <p class="price">55 / 65 zł</p>
+  </li><li>
+    <div>
+      <h3>Golonka pieczona </h3>
+      <p class="desc">600/900 g — pieczona w piwie, na kapuście zasmażanej z pieczonymi ziemniaczkami, musztarda lub chrzan</p>
+    </div>
+    <p class="price">55 zł</p>
+  </li><li>
+    <div>
+      <h3>Polędwiczki w sosie borowikowym </h3>
+      <p class="desc">170/450 g — polędwiczki wieprzowe z kluskami śląskimi, sosem i surówką z białej kapusty</p>
+    </div>
+    <p class="price">48 zł</p>
+  </li><li>
+    <div>
+      <h3>Schabowy kowala </h3>
+      <p class="desc">170/550 g — kotlet zapiekany z boczkiem, pieczarkami, cebulką, ogórkiem kiszonym i serem, z pieczonymi ziemniaczkami i buraczkami</p>
+    </div>
+    <p class="price">45 zł</p>
+  </li><li>
+    <div>
+      <h3>Kotlet schabowy </h3>
+      <p class="desc">180/470 g — schab panierowany 180 g / 250 g, z gotowanymi ziemniakami i kapustą zasmażaną</p>
+    </div>
+    <p class="price">37 zł</p>
+  </li><li>
+    <div>
+      <h3>Filet panierowany </h3>
+      <p class="desc">170/450 g — panierowany filet z piersi kurczaka 170 g, z gotowanymi ziemniakami i surówką z białej kapusty</p>
+    </div>
+    <p class="price">37 zł</p>
+  </li><li>
+    <div>
+      <h3>Filet zapiekany </h3>
+      <p class="desc">170/500 g — filet z piersi kurczaka 170 g zapiekany z boczkiem, pieczarkami, cebulą, ogórkiem i serem żółtym, z gotowanymi ziemniakami i surówką z białej kapusty</p>
+    </div>
+    <p class="price">45 zł</p>
+  </li><li>
+    <div>
+      <h3>Poliki wołowe </h3>
+      <p class="desc">170/450 g — poliki w sosie 170 g, z pieczonymi ziemniaczkami i buraczkami</p>
+    </div>
+    <p class="price">49 zł</p>
+  </li><li>
+    <div>
+      <h3>Kotlet devolaille tradycyjny </h3>
+      <p class="desc">150/400 g — filet z piersi kurczaka 150 g, nadziewany masłem i pietruszką, z frytkami i surówką z czerwonej kapusty</p>
+    </div>
+    <p class="price">41 zł</p>
+  </li><li>
+    <div>
+      <h3>Kotlet devolaille z serem i pieczarkami </h3>
+      <p class="desc">180/450 g — filet 170 g zapiekany z serem i pieczarkami, z pieczonymi ziemniaczkami i surówką z białej kapusty</p>
+    </div>
+    <p class="price">44 zł</p>
+  </li><li>
+    <div>
+      <h3>Łosoś pieczony </h3>
+      <p class="desc">170/450 g — z pieczonymi ziemniaczkami i gotowanymi warzywami z masłem ziołowym, sos czosnkowy i pikantny</p>
+    </div>
+    <p class="price">52 zł</p>
+  </li><li>
+    <div>
+      <h3>Karczek pieczony </h3>
+      <p class="desc">150/450 g — pieczeń z karczku, z kluskami śląskimi, sosem pieczeniowym i buraczkami</p>
+    </div>
+    <p class="price">29 zł</p>
+  </li><li>
+    <div>
+      <h3>Pierogi ruskie <span class="badge">wege</span></h3>
+      <p class="desc">8 szt.</p>
+    </div>
+    <p class="price">22 zł</p>
+  </li><li>
+    <div>
+      <h3>Kluski śląskie z sosem borowikowym <span class="badge">wege</span></h3>
+      <p class="desc">6 szt., z surówką z białej kapusty</p>
+    </div>
+    <p class="price">32 zł</p>
+  </li><li>
+    <div>
+      <h3>Danie dnia </h3>
+      <p class="desc">250 + 450 g — zupa + drugie danie. Tygodniowe menu w lokalu oraz na Facebooku i Instagramie</p>
+    </div>
+    <p class="price">30 zł</p>
+  </li></ul>
+    </div>
+<div class="panel" data-panel="pizza" hidden>
+      <p class="note">Ceny: mała 26 cm, duża 32 cm, familijna 45 cm, XXL 60 cm.</p>
+      <ul class="dishes"><li class="size-head desktop">
+            <span>Pizza</span>
+            <span>Mała<br>26 cm</span>
+            <span>Duża<br>32 cm</span>
+            <span>Familijna<br>45 cm</span>
+            <span>XXL<br>60 cm</span>
+          </li><li>
+    <div>
+      <h3>Klasyczna <span class="badge">wege</span></h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>23 zł</span><span>31 zł</span><span>55 zł</span><span>83 zł</span></div><p class="prices mobile">26 cm 23 zł · 32 cm 31 zł · 45 cm 55 zł · 60 cm 83 zł</p>
+  </li><li>
+    <div>
+      <h3>Salami </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, salami, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>26 zł</span><span>35 zł</span><span>58 zł</span><span>89 zł</span></div><p class="prices mobile">26 cm 26 zł · 32 cm 35 zł · 45 cm 58 zł · 60 cm 89 zł</p>
+  </li><li>
+    <div>
+      <h3>Wegetariańska <span class="badge">wege</span></h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, pieczarki, kukurydza, cebula, papryka, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>29 zł</span><span>38 zł</span><span>62 zł</span><span>95 zł</span></div><p class="prices mobile">26 cm 29 zł · 32 cm 38 zł · 45 cm 62 zł · 60 cm 95 zł</p>
+  </li><li>
+    <div>
+      <h3>Hawajska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, szynka, ananas, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>27 zł</span><span>36 zł</span><span>59 zł</span><span>90 zł</span></div><p class="prices mobile">26 cm 27 zł · 32 cm 36 zł · 45 cm 59 zł · 60 cm 90 zł</p>
+  </li><li>
+    <div>
+      <h3>Szynkowa </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, szynka, pieczarki, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>27 zł</span><span>36 zł</span><span>59 zł</span><span>90 zł</span></div><p class="prices mobile">26 cm 27 zł · 32 cm 36 zł · 45 cm 59 zł · 60 cm 90 zł</p>
+  </li><li>
+    <div>
+      <h3>Pepperoni </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kiełbasa peperoni, papryczki jalapeño, cebula, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>28 zł</span><span>38 zł</span><span>62 zł</span><span>95 zł</span></div><p class="prices mobile">26 cm 28 zł · 32 cm 38 zł · 45 cm 62 zł · 60 cm 95 zł</p>
+  </li><li>
+    <div>
+      <h3>Indyjska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kurczak, cebula, kukurydza, curry, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>28 zł</span><span>38 zł</span><span>62 zł</span><span>95 zł</span></div><p class="prices mobile">26 cm 28 zł · 32 cm 38 zł · 45 cm 62 zł · 60 cm 95 zł</p>
+  </li><li>
+    <div>
+      <h3>Nowojorska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kiełbasa pepperoni, szynka, boczek, pieczarki, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>29 zł</span><span>40 zł</span><span>65 zł</span><span>99 zł</span></div><p class="prices mobile">26 cm 29 zł · 32 cm 40 zł · 45 cm 65 zł · 60 cm 99 zł</p>
+  </li><li>
+    <div>
+      <h3>Meksykańska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kiełbasa pepperoni, pieczarki, papryczki jalapeño, kukurydza, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>29 zł</span><span>40 zł</span><span>65 zł</span><span>99 zł</span></div><p class="prices mobile">26 cm 29 zł · 32 cm 40 zł · 45 cm 65 zł · 60 cm 99 zł</p>
+  </li><li>
+    <div>
+      <h3>Firmowa </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, pieczarki, szynka, kukurydza, cebula, papryka, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>29 zł</span><span>40 zł</span><span>65 zł</span><span>99 zł</span></div><p class="prices mobile">26 cm 29 zł · 32 cm 40 zł · 45 cm 65 zł · 60 cm 99 zł</p>
+  </li><li>
+    <div>
+      <h3>Pikantny kurczak </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kurczak, papryczki jalapeño, sos pikantny, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>29 zł</span><span>40 zł</span><span>65 zł</span><span>99 zł</span></div><p class="prices mobile">26 cm 29 zł · 32 cm 40 zł · 45 cm 65 zł · 60 cm 99 zł</p>
+  </li><li>
+    <div>
+      <h3>Wiejska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kurczak, boczek, pieczarki, cebula, ogórek, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>30 zł</span><span>41 zł</span><span>67 zł</span><span>102 zł</span></div><p class="prices mobile">26 cm 30 zł · 32 cm 41 zł · 45 cm 67 zł · 60 cm 102 zł</p>
+  </li><li>
+    <div>
+      <h3>Mięsna </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kurczak, boczek, szynka, salami, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>31 zł</span><span>42 zł</span><span>68 zł</span><span>104 zł</span></div><p class="prices mobile">26 cm 31 zł · 32 cm 42 zł · 45 cm 68 zł · 60 cm 104 zł</p>
+  </li><li>
+    <div>
+      <h3>Teksańska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kurczak, boczek, cebula, kukurydza, sos barbecue</p>
+    </div>
+    <div class="prices desktop"><span>31 zł</span><span>42 zł</span><span>68 zł</span><span>104 zł</span></div><p class="prices mobile">26 cm 31 zł · 32 cm 42 zł · 45 cm 68 zł · 60 cm 104 zł</p>
+  </li><li>
+    <div>
+      <h3>Olimpijska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kurczak, boczek, salami, szynka, pieczarki, kukurydza, cebula, papryka, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>35 zł</span><span>46 zł</span><span>73 zł</span><span>114 zł</span></div><p class="prices mobile">26 cm 35 zł · 32 cm 46 zł · 45 cm 73 zł · 60 cm 114 zł</p>
+  </li><li>
+    <div>
+      <h3>Świerczowska </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella, kurczak, bekon, salami, szynka, pieczarki, kukurydza, cebula, papryka, papryczki jalapeño, oliwki, przyprawy</p>
+    </div>
+    <div class="prices desktop"><span>38 zł</span><span>51 zł</span><span>80 zł</span><span>120 zł</span></div><p class="prices mobile">26 cm 38 zł · 32 cm 51 zł · 45 cm 80 zł · 60 cm 120 zł</p>
+  </li><li>
+    <div>
+      <h3>Sos </h3>
+      <p class="desc">80 ml</p>
+    </div>
+    <p class="price">3 zł</p>
+  </li><li>
+    <div>
+      <h3>Zestaw 3 sosów </h3>
+      <p class="desc">3 × 80 ml</p>
+    </div>
+    <p class="price">8 zł</p>
+  </li><li>
+    <div>
+      <h3>Opakowanie na wynos </h3>
+      
+    </div>
+    <div class="prices desktop"><span>2 zł</span><span>3 zł</span><span>4 zł</span><span>5 zł</span></div><p class="prices mobile">26 cm 2 zł · 32 cm 3 zł · 45 cm 4 zł · 60 cm 5 zł</p>
+  </li></ul>
+    </div>
+<div class="panel" data-panel="pizza-wloska" hidden>
+      <p class="note">Klasyczne długodojrzewające ciasto na włoskiej mące, ser mozzarella i oryginalne włoskie wędliny (ok. 32 cm).</p>
+      <ul class="dishes"><li>
+    <div>
+      <h3>Burrata </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, burrata, Prosciutto Crudo, rukola, pomidorki koktajlowe, parmezan</p>
+    </div>
+    <p class="price">49 zł</p>
+  </li><li>
+    <div>
+      <h3>Marinara <span class="badge">wege</span></h3>
+      <p class="desc">Sos pomidorowy, czosnek, oregano, oliwa</p>
+    </div>
+    <p class="price">26 zł</p>
+  </li><li>
+    <div>
+      <h3>Margherita <span class="badge">wege</span></h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, listki bazylii</p>
+    </div>
+    <p class="price">33 zł</p>
+  </li><li>
+    <div>
+      <h3>Classico </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, Prosciutto Cotto (gotowana włoska szynka), pieczarki</p>
+    </div>
+    <p class="price">37 zł</p>
+  </li><li>
+    <div>
+      <h3>Salame </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, włoskie salami</p>
+    </div>
+    <p class="price">37 zł</p>
+  </li><li>
+    <div>
+      <h3>Salame Piccante </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, Salame Piccante</p>
+    </div>
+    <p class="price">37 zł</p>
+  </li><li>
+    <div>
+      <h3>Nduja </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, kiełbasa nduja, ser ricotta, roszponka</p>
+    </div>
+    <p class="price">42 zł</p>
+  </li><li>
+    <div>
+      <h3>Parma </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, Prosciutto Crudo, pomidorki koktajlowe, rukola, płatki parmezanu</p>
+    </div>
+    <p class="price">44 zł</p>
+  </li><li>
+    <div>
+      <h3>Speziato </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, kiełbasa nduja, Salame Piccante, czerwona cebula, ser ricotta</p>
+    </div>
+    <p class="price">44 zł</p>
+  </li><li>
+    <div>
+      <h3>Carne </h3>
+      <p class="desc">Sos pomidorowy, ser mozzarella Fior di Latte, Prosciutto Cotto, włoskie salami, Salame Piccante</p>
+    </div>
+    <p class="price">44 zł</p>
+  </li></ul>
+    </div>
+<div class="panel" data-panel="salatki" hidden>
+      <p class="note">Do każdej sałatki podajemy pieczywo własnego wypieku. Opakowanie na wynos: 2 zł.</p>
+      <ul class="dishes"><li>
+    <div>
+      <h3>Burrata <span class="badge">wege</span></h3>
+      <p class="desc">400 g — mix sałat, burrata, pomidorki koktajlowe, pestki dyni, winogrona, oliwki, winegret</p>
+    </div>
+    <p class="price">34 zł</p>
+  </li><li>
+    <div>
+      <h3>Z kurczakiem </h3>
+      <p class="desc">490 g — mix sałat, kawałki piersi kurczaka, pomidor, ogórek, kukurydza, sos miodowo-musztardowy</p>
+    </div>
+    <p class="price">29 zł</p>
+  </li><li>
+    <div>
+      <h3>Z polędwiczkami </h3>
+      <p class="desc">490 g — mix sałat, panierowane polędwiczki z kurczaka, ogórek konserwowy, ser, prażony słonecznik, sos czosnkowy</p>
+    </div>
+    <p class="price">30 zł</p>
+  </li></ul>
+    </div>
+<div class="panel" data-panel="panuozzo" hidden>
+      <p class="note">Włoska kanapka, podawana na ciepło.</p>
+      <ul class="dishes"><li>
+    <div>
+      <h3>Panuozzo Cezar </h3>
+      <p class="desc">Sałata rzymska, kurczak, chipsy Crudo, ser mozzarella Fior di Latte, ser długodojrzewający, pesto, sos Cezar</p>
+    </div>
+    <p class="price">35 zł</p>
+  </li><li>
+    <div>
+      <h3>Panuozzo Cotto </h3>
+      <p class="desc">Prosciutto Cotto, Salame Piccante, ser mozzarella Fior di Latte, rukola, roszponka, sos czosnkowy, pesto</p>
+    </div>
+    <p class="price">35 zł</p>
+  </li><li>
+    <div>
+      <h3>Panuozzo Burrata <span class="badge">wege</span></h3>
+      <p class="desc">Ser burrata, rukola, roszponka, pomidorki koktajlowe, oliwki, pesto</p>
+    </div>
+    <p class="price">35 zł</p>
+  </li><li>
+    <div>
+      <h3>Panuozzo Szarpana wołowina </h3>
+      <p class="desc">Szarpana wołowina, ser mozzarella Fior di Latte, rukola, roszponka, ogórek konserwowy, pesto</p>
+    </div>
+    <p class="price">45 zł</p>
+  </li></ul>
+    </div>
+<div class="panel" data-panel="dzieci" hidden>
+      
+      <ul class="dishes"><li>
+    <div>
+      <h3>Filecik z kurczaka z frytkami </h3>
+      <p class="desc">80/150 g</p>
+    </div>
+    <p class="price">20 zł</p>
+  </li><li>
+    <div>
+      <h3>Pierogi ruskie <span class="badge">wege</span></h3>
+      <p class="desc">4 szt.</p>
+    </div>
+    <p class="price">14 zł</p>
+  </li><li>
+    <div>
+      <h3>Kluski śląskie z sosem <span class="badge">wege</span></h3>
+      <p class="desc">4 szt.</p>
+    </div>
+    <p class="price">12 zł</p>
+  </li><li>
+    <div>
+      <h3>Rosół / pomidorowa z makaronem </h3>
+      <p class="desc">200 ml</p>
+    </div>
+    <p class="price">10 zł</p>
+  </li><li>
+    <div>
+      <h3>Minipizza </h3>
+      <p class="desc">21 cm, z szynką lub pieczarkami</p>
+    </div>
+    <p class="price">14 zł</p>
+  </li><li>
+    <div>
+      <h3>Opakowanie na wynos </h3>
+      
+    </div>
+    <p class="price">2 zł</p>
+  </li></ul>
+    </div>
+      </div>
+    </section>
+
+    <section id="imprezy" class="section">
+      <div class="wrap narrow">
+        <p class="eyebrow">Uroczystości</p>
+        <h2>Komunie, chrzciny, urodziny</h2>
+        <p>Mamy salę i ogródek, które sprawdzają się przy większych stołach. Pomagamy ułożyć menu na chrzest, komunię, rocznicę albo przyjęcie dziecięce — z krzesełkiem, przewijakiem i miejscem do zabawy.</p>
+        <ul class="ticks">
+          <li>Prywatna sala i miejsca na tarasie</li>
+          <li>Katering i przyjęcia okolicznościowe</li>
+          <li>Dostawa i dania na wynos</li>
+          <li>Dostęp dla wózków, parking przy ulicy</li>
+        </ul>
+        <a class="btn" href="#rezerwacja">Zapytaj o termin</a>
+      </div>
+    </section>
+
+    <section id="godziny" class="section hours">
+      <div class="wrap hours-grid">
+        <div>
+          <h2>Godziny otwarcia</h2>
+          <p>Kuchnia pracuje od rana — śniadania, obiady i kolacje. W piątki i soboty zostajemy dłużej.</p>
+        </div>
+        <dl><div class="hour"><dt>Poniedziałek</dt><dd>9:00 – 22:00</dd></div><div class="hour"><dt>Wtorek</dt><dd>9:00 – 22:00</dd></div><div class="hour"><dt>Środa</dt><dd>9:00 – 22:00</dd></div><div class="hour"><dt>Czwartek</dt><dd>9:00 – 22:00</dd></div><div class="hour"><dt>Piątek</dt><dd>9:00 – 23:00</dd></div><div class="hour"><dt>Sobota</dt><dd>10:00 – 23:00</dd></div><div class="hour"><dt>Niedziela</dt><dd>10:00 – 22:00</dd></div></dl>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow">Dojazd</p>
+          <h2>Znajdź nas w Świerczowie</h2>
+          <p>ul. Brzeska 13, 46-112 Świerczów. Bezpłatny parking przy ulicy. Psy mile widziane na zewnątrz.</p>
+          <div class="actions">
+            <a class="btn" href="https://maps.apple/p/tgm.N.ewGkIy.6" target="_blank" rel="noreferrer">Apple Maps</a>
+            <a class="btn outline" href="https://www.google.com/maps/search/?api=1&amp;query=Brzeska+13+46-112+%C5%9Awiercz%C3%B3w" target="_blank" rel="noreferrer">Google Maps</a>
+            <a class="btn outline" href="https://www.facebook.com/profile.php?id=100063651099144" target="_blank" rel="noreferrer">Facebook</a>
+          </div>
+        </div>
+        <iframe title="Mapa Restauracji Świerczów" src="https://maps.google.com/maps?q=Brzeska%2013%2C%2046-112%20%C5%9Awiercz%C3%B3w&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section id="rezerwacja" class="section reserve">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Rezerwacja</h2>
+          <p>Napisz, kiedy chcesz przyjść — wyślemy prośbę na jari@op.pl. Najpewniej zadzwonić: 77 419 61 18.</p>
+          <p>Przy większych przyjęciach warto umówić się z kilkudniowym wyprzedzeniem.</p>
+        </div>
+        <form id="reservation" class="card">
+          <div class="fields">
+            <label>Imię i nazwisko<input name="name" required autocomplete="name" placeholder="Anna Kowalska"></label>
+            <label>Telefon<input name="phone" type="tel" required autocomplete="tel" placeholder="500 000 000"></label>
+            <label>Liczba osób<input name="guests" type="number" min="1" max="80" required placeholder="4"></label>
+            <label>Data i godzina<input name="datetime" type="datetime-local" required></label>
+          </div>
+          <label>Uwagi (opcjonalnie)<textarea name="notes" rows="4" placeholder="Wózek dziecięcy, alergie, przyjęcie komunijne…"></textarea></label>
+          <p id="form-status" role="status" hidden></p>
+          <div class="actions">
+            <button class="btn" type="submit">Wyślij prośbę o stolik</button>
+            <a class="btn outline" href="tel:+48774196118">Zadzwoń 77 419 61 18</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>
+        <img src="images/logo.png" alt="" class="logo logo-md">
+        <p>Kuchnia polska i pizza. Taras, plac zabaw i sala na uroczystości.</p>
+      </div>
+      <div>
+        <p class="footer-label">Lokal</p>
+        <p>ul. Brzeska 13<br>46-112 Świerczów</p>
+        <p><a href="tel:+48774196118">77 419 61 18</a><br><a href="mailto:jari@op.pl">jari@op.pl</a></p>
+      </div>
+      <div>
+        <p class="footer-label">Nawigacja</p>
+        <ul>
+          <li><a href="https://maps.apple/p/tgm.N.ewGkIy.6">Apple Maps</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Brzeska+13+46-112+%C5%9Awiercz%C3%B3w">Google Maps</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100063651099144">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">© 2026 Restauracja Świerczów. Pizzeria od 2010. Zestawy dnia — Facebook i Instagram.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

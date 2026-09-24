@@ -1,0 +1,31 @@
+Restauracja Świerczów — aplikacja Node.js
+=========================================
+
+Strona działa jako aplikacja Express. Pliki strony są w folderze public/.
+
+Uruchomienie lokalne
+1. Zainstaluj Node.js 22 albo nowszy.
+2. W tym folderze uruchom: npm install
+3. Potem: npm start
+4. Strona jest pod adresem http://127.0.0.1:3000
+
+Hostinger
+1. Wgraj aplikację jako Node.js, nie jako luźne pliki do public_html.
+2. Polecenie start: npm start
+3. Plik startowy: server.js
+4. Aplikacja nasłuchuje na porcie z zmiennej PORT.
+
+Rezerwacje
+Formularz wysyła prośbę na adres z RESERVATION_TO (domyślnie jari@op.pl).
+Gdy w hPanel są ustawione SMTP_HOST, SMTP_USER i SMTP_PASS, serwer wysyła maila sam.
+Bez tych zmiennych przeglądarka otwiera gotową wiadomość e-mail.
+
+Opcjonalne zmienne w hPanel:
+- RESERVATION_TO
+- SMTP_HOST
+- SMTP_PORT (domyślnie 465)
+- SMTP_USER
+- SMTP_PASS
+- SMTP_FROM
+
+Cenę dania zmienisz w public/index.html: znajdź nazwę dania i popraw kwotę obok.
