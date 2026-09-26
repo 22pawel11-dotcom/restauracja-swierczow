@@ -1,0 +1,17 @@
+{
+  "name": "Restauracja Świerczów",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "server",
+      "command": "npm start",
+      "description": "Express web server for the Restauracja Świerczów site. Serves the static site from public/ and the /rezerwacja reservation endpoint on port 3000 (override with PORT)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web server",
+      "port": 3000
+    }
+  ]
+}
